@@ -2,11 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 #title {
+    font-family: 'Hanalei Fill', cursive;
     text-align: center;
     font-size: 6em;
-    font-family: 'Hanalei Fill', cursive;
     margin-top: 10px;
     margin: 10px;
+}
+
+#night_day {
+    float: right;
+    margin-right: 400px;
+    width: 80px;
+    height: 30px;
+    font-size :medium
 }
 
 a {
@@ -23,7 +31,7 @@ li {
     margin: 130px;   
     display: inline;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 h2 {
