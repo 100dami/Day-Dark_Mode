@@ -25,11 +25,12 @@ a {
 ul {
     text-align: center;
     margin-top: 80PX;
+    display: flex;
+    list-style: none;
 }
 
 li {
-    margin: 130px;   
-    display: inline;
+    margin: 100px;   
     font-family: 'Do Hyeon', sans-serif;
     font-size: 1.6em;
 }
