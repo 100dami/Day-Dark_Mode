@@ -6,14 +6,20 @@ output.addEventListener("click", function modechange() { // output이 클릭됐�
         document.querySelector(".body").style.backgroundColor = "black"; // html의 body 부분의 배경을 black으로 바꿈
         document.querySelector(".body").style.color = "white"; // html의 body 부분의 글씨들을 white으로 바꿈
         document.querySelector("a").style.color = "white"; // html의 a 태그 글씨를 white으로 지정
-        document.querySelector("#div ul .list a").style.color = "white"; // html의 a 태그 글씨를 white으로 지정
+        document.querySelector("#div ul .list a").style.color = "white";  
+        document.querySelector("#div ul .list1 a").style.color = "white";  
+        document.querySelector("#div ul .list2 a").style.color = "white";  
+        document.querySelector("#div ul .list3 a").style.color = "white";  
         document.querySelector("#night_day").value = "day"; // 버튼의 value를 "day"로 바꿈
     }
     else if (output.value == "day") {
         document.querySelector(".body").style.backgroundColor = "white";
         document.querySelector(".body").style.color = "black";
         document.querySelector("a").style.color = "black";
-        document.querySelector(".div ul a").style.color = "black";
+        document.querySelector("#div ul .list a").style.color = "black";
+        document.querySelector("#div ul .list1 a").style.color = "black";  
+        document.querySelector("#div ul .list2 a").style.color = "black";  
+        document.querySelector("#div ul .list3 a").style.color = "black"; 
         document.querySelector("#night_day").value = "night";
     }
 })
